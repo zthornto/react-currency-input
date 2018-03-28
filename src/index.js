@@ -130,7 +130,7 @@ class CurrencyInput extends Component {
             selectionStart = Math.min(node.selectionStart, selectionEnd);
         }
 
-        node.setSelectionRange(selectionStart, selectionEnd);
+        // node.setSelectionRange(selectionStart, selectionEnd);
     }
 
 
@@ -182,7 +182,7 @@ class CurrencyInput extends Component {
             selectionStart = selectionEnd;
         }
 
-        node.setSelectionRange(selectionStart, selectionEnd);
+        // node.setSelectionRange(selectionStart, selectionEnd);
         this.inputSelectionStart = selectionStart;
         this.inputSelectionEnd = selectionEnd;
     }
